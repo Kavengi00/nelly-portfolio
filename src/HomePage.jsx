@@ -74,17 +74,29 @@ export default function HomePage() {
 
         {/* Lab Challenges */}
         <Section title={<><FaProjectDiagram className="inline mr-2" />Lab Challenge Writeups</>}>
-          <Project
-            title="Netflix Cleaning Project"
-            description={`Problem Statement: Raw Netflix dataset required extensive cleaning for analysis\nApproach: Identified and handled missing data, corrected data types, and standardized column entries for consistency\nTools Used: Python, Pandas, Jupyter Notebook\nLessons Learned: Gained hands-on practice in data cleaning essentials for reliable analysis`}
-            link="https://medium.com/@kavengialex/netflix-data-detective-a-python-journey-from-chaos-to-clean-insights-cbe7aa7c2edc"
-          />
-          <Project
-            title="Who Survived the Titanic?"
-            description={`Problem Statement: Analyze passenger data for survival prediction\nApproach: Univariate, bivariate analysis, KDE plots, Z-score capping\nTools Used: Pandas, Seaborn, Matplotlib\nLessons Learned: Importance of visualization, outlier treatment, and data cleaning`}
-            link="https://medium.com/@kavengialex/who-survived-the-titanic-an-exploratory-journey-with-data-and-visuals-cbd38de06a17"
-          />
-
+          <div className="mb-6">
+            <h3 className="text-xl font-semibold text-gray-800 mb-1">Netflix Cleaning Project</h3>
+            <p><strong>Problem Statement:</strong> Raw Netflix dataset required extensive cleaning for analysis</p>
+            <p><strong>Approach:</strong> Identified and handled missing data, corrected data types, and standardized column entries for consistency</p>
+            <p><strong>Tools Used:</strong> Python, Pandas, Jupyter Notebook</p>
+            <p><strong>Lessons Learned:</strong> Gained hands-on practice in data cleaning essentials for reliable analysis</p>
+            <a href="https://medium.com/@kavengialex/netflix-data-detective-a-python-journey-from-chaos-to-clean-insights-cbe7aa7c2edc"
+            target="_blank" className="text-blue-600 underline mt-1 inline-block">
+            View Lab Writeup
+            </a>
+          </div>
+          
+          <div className="mb-6">
+            <h3 className="text-xl font-semibold text-gray-800 mb-1">Who Survived the Titanic?</h3>
+            <p><strong>Problem Statement:</strong> Analyze passenger data for survival prediction</p>
+            <p><strong>Approach:</strong> Univariate, bivariate analysis, KDE plots, Z-score capping</p>
+            <p><strong>Tools Used:</strong> Pandas, Seaborn, Matplotlib</p>
+            <p><strong>Lessons Learned:</strong> Importance of visualization, outlier treatment, and data cleaning</p>
+            <a href="https://medium.com/@kavengialex/who-survived-the-titanic-an-exploratory-journey-with-data-and-visuals-cbd38de06a17"
+               target="_blank" className="text-blue-600 underline mt-1 inline-block">
+               View Lab Writeup
+            </a>
+          </div>
         </Section>
 
         {/* Contact Section */}
