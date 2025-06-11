@@ -89,6 +89,32 @@ export default function HomePage() {
             link="https://medium.com/@kavengialex/who-survived-the-titanic-an-exploratory-journey-with-data-and-visuals-cbd38de06a17"
           />
         </Section>
+                {/* Contact Section */}
+                <Section title="Contact">
+          <div className="space-y-2 text-gray-700">
+            <p>
+              <strong>Email:</strong>{" "}
+              <a href="mailto:kavengialex@gmail.com" className="text-blue-600 underline">
+                kavengialex@gmail.com
+              </a>
+            </p>
+            <p>
+              <strong>Phone:</strong> +254 712 345678
+            </p>
+            <p>
+              <strong>LinkedIn:</strong>{" "}
+              <a href="https://www.linkedin.com/in/kavengi-alex-56ab55299" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">
+                linkedin.com/in/nelly-alex
+              </a>
+            </p>
+            <p>
+              <strong>GitHub:</strong>{" "}
+              <a href="https://github.com/Kavengi00" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">
+                github.com/Kavengi00
+              </a>
+            </p>
+          </div>
+        </Section>
       </div>
     </div>
   );
@@ -127,3 +153,5 @@ function Project({ title, description, link }) {
     </div>
   );
 }
+
+
