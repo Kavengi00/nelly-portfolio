@@ -9,7 +9,7 @@ export default function HomePage() {
       <div className="max-w-4xl mx-auto grid gap-8">
         <div className="shadow-lg rounded-2xl p-6 bg-gradient-to-br from-blue-50 to-blue-100 text-center">
           <img
-            src="C:\Users\ADMIN\Downloads\DSC_1017-removebg-preview.png"
+            src="C:/Users/ADMIN/Downloads/DSC_1017-removebg-preview.png"
             alt="Nelly Kavengi Alex"
             className="w-40 h-40 mx-auto mb-4 rounded-full border-4 border-blue-300"
           />
@@ -76,14 +76,15 @@ export default function HomePage() {
         <Section title={<><FaProjectDiagram className="inline mr-2" />Lab Challenge Writeups</>}>
           <Project
             title="Netflix Cleaning Project"
-            description="Cleaned Netflix dataset for analysis. Handled missing data, corrected data types, standardized columns."
+            description={`Problem Statement: Raw Netflix dataset required extensive cleaning for analysis\nApproach: Identified and handled missing data, corrected data types, and standardized column entries for consistency\nTools Used: Python, Pandas, Jupyter Notebook\nLessons Learned: Gained hands-on practice in data cleaning essentials for reliable analysis`}
             link="https://medium.com/@kavengialex/netflix-data-detective-a-python-journey-from-chaos-to-clean-insights-cbe7aa7c2edc"
           />
           <Project
             title="Who Survived the Titanic?"
-            description="Univariate and bivariate analysis, feature profiling, visual storytelling using Seaborn and Matplotlib."
+            description={`Problem Statement: Analyze passenger data for survival prediction\nApproach: Univariate, bivariate analysis, KDE plots, Z-score capping\nTools Used: Pandas, Seaborn, Matplotlib\nLessons Learned: Importance of visualization, outlier treatment, and data cleaning`}
             link="https://medium.com/@kavengialex/who-survived-the-titanic-an-exploratory-journey-with-data-and-visuals-cbd38de06a17"
           />
+
         </Section>
 
         {/* Contact Section */}
