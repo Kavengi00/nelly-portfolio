@@ -9,7 +9,7 @@ export default function HomePage() {
       <div className="max-w-4xl mx-auto grid gap-8">
         <div className="shadow-lg rounded-2xl p-6 bg-gradient-to-br from-blue-50 to-blue-100 text-center">
           <img
-            src="/profile-photo.jpg"
+            src="C:\Users\ADMIN\Downloads\DSC_1017-removebg-preview.png"
             alt="Nelly Kavengi Alex"
             className="w-40 h-40 mx-auto mb-4 rounded-full border-4 border-blue-300"
           />
@@ -18,13 +18,8 @@ export default function HomePage() {
             <FaCode className="inline mr-2" />Data Scientist | Statistician | Python Enthusiast | Cloud Specialist
           </p>
           <p className="text-md text-gray-600 mt-2 max-w-xl mx-auto">
-            Turning data into insight and action – exploring the intersection of statistics,
-            programming, and real-world impact in health and development.
-          </p>
-          <p className="text-md text-gray-600 mt-2 max-w-xl mx-auto">
-            Interests: Cloud Computing, Cloud Security, Cloud Network. AWS Certified
-            Cloud Practitioner with hands-on experience in deploying secure, scalable
-            cloud infrastructure.
+          I am a passionate Data Scientist and Statistician with a strong foundation in applied statistics, machine learning, and computing. I specialize in transforming raw data into actionable insights, using statistical thinking, ML algorithms, and programming to solve real-world challenges across health, development, and business sectors.
+          As an AWS Certified Cloud Practitioner, I have experience deploying secure and scalable cloud infrastructure. My current focus areas include Cloud Computing, Cloud Security, and Networking, all driven by my commitment to impactful, data-informed decision-making that creates meaningful real-world outcomes.
           </p>
         </div>
 
